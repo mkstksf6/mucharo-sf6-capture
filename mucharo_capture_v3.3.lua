@@ -177,7 +177,7 @@ local function save()
         },
         frames = frames,
     }
-    local fname = "mucharo_" .. label .. ".json"
+    local fname = "mca_" .. label .. ".json"
     if json.dump_file(fname, out) then
         re.msg("Saved: reframework/data/" .. fname .. "\n"
             .. "my_side=" .. my_side .. " / " .. #frames .. " frames / " .. round_seg .. " rounds\n"
